@@ -19,7 +19,7 @@ public class MyTest {
         if (MathArrays.checkPositive(a)) {
             for (int i = 0; i < a.length; i++) {
                 if (a[i] < 0) {
-                    System.out.println("函数错误");
+                    System.out.println("函数错误 ");
                     return;
                 }
             }
