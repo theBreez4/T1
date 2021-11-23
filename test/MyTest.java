@@ -7,7 +7,7 @@ public class MyTest {
     public static void main(String[] args) {
         MyTest mt = new MyTest();
         mt.testcheckPositive(1, -1);
-        System.out.println("------------------");
+        System.out.println("---------------- --");
         mt.testMathArrays1();
         System.out.println("------------------");
         mt.testMathArrays2();
