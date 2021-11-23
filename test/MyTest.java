@@ -9,7 +9,7 @@ public class MyTest {
         mt.testcheckPositive(1, -1);
         System.out.println("---------------- --");
         mt.testMathArrays1();
-        System.out.println("------------------");
+        System.out.println("--------------- ---");
         mt.testMathArrays2();
 
     }
