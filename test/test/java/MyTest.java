@@ -1,4 +1,5 @@
-import org.apache.commons.math3.analysis.function.Abs;
+package test.java;
+
 import org.apache.commons.math3.util.MathArrays;
 
 import static org.junit.Assert.fail;
@@ -7,9 +8,9 @@ public class MyTest {
     public static void main(String[] args) {
         MyTest mt = new MyTest();
         mt.testcheckPositive(1, -1);
-        System.out.println("------------------");
+        System.out.println("---------------- --");
         mt.testMathArrays1();
-        System.out.println("------------------");
+        System.out.println("--------------- ---");
         mt.testMathArrays2();
 
     }
@@ -19,7 +20,7 @@ public class MyTest {
         if (MathArrays.checkPositive(a)) {
             for (int i = 0; i < a.length; i++) {
                 if (a[i] < 0) {
-                    System.out.println("函数错误");
+                    System.out.println("函数错误 ");
                     return;
                 }
             }
